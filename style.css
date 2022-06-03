@@ -4,16 +4,20 @@
 }
 
 body {
-    background-color: red;
+    background-color: rgb(236, 233, 233);
+}
+
+main {
+    padding-top: 200px;
 }
 
 
 /* board  */
 
 #chess-board {
-    width: 500px;
-    height: 500px;
-    border: 1px solid black;
+    width: 600px;
+    height: 600px;
+    /* border: 1px solid black; */
     margin: auto;
 }
 
@@ -22,13 +26,13 @@ body {
 
 .first_row {
     height: 15%;
-    border: 1px solid yellow;
+    border: 1px solid black;
 }
 
 .first_row div {
     float: left;
-    width: 15%;
-    height: 70px;
+    width: 20%;
+    height: 90px;
     background-color: purple;
     overflow: hidden;
 }
@@ -50,13 +54,13 @@ body {
 
 .second_row {
     height: 15%;
-    border: 1px solid purple;
+    border: 1px solid black;
 }
 
 .second_row div {
     float: left;
-    width: 15%;
-    height: 70px;
+    width: 20%;
+    height: 90px;
     background-color: yellow;
     overflow: hidden;
 }
