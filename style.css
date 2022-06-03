@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: red;
+}
+
+
+/* board  */
+
+#chess-board {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+
+/* odd row  */
+
+.first_row {
+    height: 15%;
+    border: 1px solid yellow;
+}
+
+.first_row div {
+    float: left;
+    width: 15%;
+    height: 70px;
+    background-color: purple;
+    overflow: hidden;
+}
+
+.first_row div:nth-child(2) {
+    background-color: yellow;
+}
+
+.first_row div:nth-child(4) {
+    background-color: yellow;
+}
+
+.first_row div:nth-child(6) {
+    background-color: yellow;
+}
+
+
+/* even rows  */
+
+.second_row {
+    height: 15%;
+    border: 1px solid purple;
+}
+
+.second_row div {
+    float: left;
+    width: 15%;
+    height: 70px;
+    background-color: yellow;
+    overflow: hidden;
+}
+
+.second_row div:nth-child(2) {
+    background-color: purple;
+}
+
+.second_row div:nth-child(4) {
+    background-color: purple;
+}
+
+.second_row div:nth-child(6) {
+    background-color: purple;
+}
